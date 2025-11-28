@@ -152,6 +152,7 @@ curl -X DELETE http://localhost:4000/courses/4
 - Data is reset every time the server restarts.
 - IDs are randomly generated and not guaranteed globally unique.
 - No authentication/authorization yet,so will be adding logging and auth middlewares.
+- Versioning(/api/v1/courses)
 
 ---
 
