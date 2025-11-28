@@ -11,7 +11,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-var Courses []models.Course //fake DB
+var Courses []models.Course
 
 // seeding some fake DB
 func SeedCourses() {
