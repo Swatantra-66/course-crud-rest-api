@@ -151,7 +151,7 @@ curl -X DELETE http://localhost:4000/courses/4
 - This API uses an in-memory slice as a fake database.
 - Data is reset every time the server restarts.
 - IDs are randomly generated and not guaranteed globally unique.
-- No authentication/authorization yet,so will be adding login and auth middlewares.
+- No authentication/authorization yet,so will be adding logging and auth middlewares.
 
 ---
 
