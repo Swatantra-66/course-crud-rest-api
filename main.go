@@ -14,7 +14,6 @@ func main() {
 	fmt.Println("Starting Course API on port 4000...")
 
 	router := mux.NewRouter()
-	routes.RegisterRoutes(router)
 
 	//logging middleware
 	router.Use(middleware.LoggingMiddleware)
